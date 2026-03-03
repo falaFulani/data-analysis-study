@@ -1,6 +1,6 @@
 import pandas as pd 
 
-df = pd.read_csv("Electric_Vehicle_Population_Data.csv")
+df = pd.read_csv("data.csv")
 
 #Display the first 10 rows
 first_10_rows=df.head(10)
@@ -14,4 +14,4 @@ colunms_names = df.columns
 #Get basic statistical summary of numerical columns
 
 stats_numeric = df.describe()
-print(stats_numeric)
+print(colunms_names)
